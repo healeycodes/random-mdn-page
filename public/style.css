@@ -1,0 +1,62 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.page-wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+main {
+  width: 80vw;
+  max-width: 600px;
+}
+
+.page-font {
+  color: #333;
+  font-family: 'Allerta', sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-font-smoothing: antialiased !important;
+  text-rendering: optimizelegibility !important;
+  letter-spacing: .03em;
+}
+
+.page-link-con {
+  font-size: 1.4em;
+  padding-bottom: 20px;
+  overflow-wrap: break-word;
+}
+
+.page-text-con {
+  padding-bottom: 20px; 
+}
+
+.faded {
+  opacity: .6;
+}
+
+.wobble {
+  animation: jelly 0.75s;
+}
+
+@keyframes jelly {
+  0%,
+  100% {
+    transform: scale(1, 1);
+  }
+  25% {
+    transform: scale(0.9, 1.1);
+  }
+  50% {
+    transform: scale(1.1, 0.9);
+  }
+  75% {
+    transform: scale(0.95, 1.05);
+  }
+}
