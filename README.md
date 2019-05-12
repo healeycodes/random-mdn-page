@@ -5,7 +5,7 @@
 
 An Express app that serves up a card of a random MDN JavaScript page.
 
-Uses the Bulma CSS framework.
+Uses the Bulma CSS framework. As well as Puppeteer for the initial scraping.
 
 <br>
 

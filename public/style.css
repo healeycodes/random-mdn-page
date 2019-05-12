@@ -42,7 +42,8 @@ main {
 }
 
 .github-star {
-  padding: 5px;
+  position: absolute;
+  margin: 5px;
 }
 
 .wobble {
