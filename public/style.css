@@ -41,6 +41,10 @@ main {
   opacity: .6;
 }
 
+.github-star {
+  padding: 5px;
+}
+
 .wobble {
   animation: jelly 0.75s;
 }
