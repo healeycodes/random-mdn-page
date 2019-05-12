@@ -3,7 +3,6 @@ const express = require('express');
 const app = express();
 app.use(express.static('public'));
 
-
 const pages = require('./data/pages.json');
 const rndPage = () => pages[Math.floor(Math.random() * pages.length)];
 

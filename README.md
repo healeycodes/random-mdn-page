@@ -1,7 +1,23 @@
-Random MDN page
+[Random MDN page](https://random-mdn-page.glitch.me/)
 =================
 
 <br>
+
+An Express app that serves up a card of a random MDN JavaScript page.
+
+Uses the Bulma CSS framework.
+
+<br>
+
+#### Routes
+
+`/` - for the card.
+
+`/rnd` - for the card JSON.
+
+<br>
+
+#### Maintenance
 
 Scrape for new pages:
 
