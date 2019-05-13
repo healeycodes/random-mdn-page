@@ -12,6 +12,16 @@ html, body {
   flex-direction: column;
 }
 
+@media (max-height: 750px) {
+  .page-wrap {
+    height: auto;
+  }
+  
+  .title {
+    margin-top: 75px;
+  }
+}
+
 main {
   width: 80vw;
   max-width: 600px;
@@ -25,6 +35,10 @@ main {
   -moz-font-smoothing: antialiased !important;
   text-rendering: optimizelegibility !important;
   letter-spacing: .03em;
+}
+
+.page-text {
+  overflow-wrap: break-word;
 }
 
 .page-link-con {
