@@ -20,6 +20,10 @@ html, body {
   .title {
     margin-top: 75px;
   }
+  
+  .another {
+    margin-bottom: 75px;
+  }
 }
 
 main {
@@ -52,7 +56,7 @@ main {
 }
 
 .faded {
-  opacity: .6;
+  opacity: .5;
 }
 
 .github-star {
