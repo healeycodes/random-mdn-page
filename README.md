@@ -5,6 +5,8 @@
 
 An Express app that serves up a card of a random MDN JavaScript page.
 
+![](https://raw.githubusercontent.com/healeycodes/random-mdn-page/blob/master/rnd-mdn-preview.png "Image of a random MDN page card")
+
 Uses the Bulma CSS framework, as well as Puppeteer for the initial scraping.
 
 <br>
